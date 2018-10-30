@@ -1,0 +1,34 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=7
+    os=Linux
+
+[requires]
+    ParallelSTL/20181004.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=7
+    os=Linux
+
+[full_requires]
+    ParallelSTL/20181004@elshize/stable:fa96d37a2495ebb462d3fa1042f0061d0e44d81e
+    TBB/2018_U5@conan/stable:160b4bac5177b0f9a5f4857d00317fe0862a8a02
+
+[full_options]
+    TBB:shared=True
+
+[recipe_hash]
+
+
+[env]
+
